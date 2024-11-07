@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 64px;
+
+
+
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+nav>ul>li {
+    color: #230B59;
+}
+
+.buttons__header>button {
+    background: none;
+    border: none;
+    border: 2px solid #4840BB;
+    padding: 13px 21px;
+    border-radius: 6px;
+
+}
+
+.buttons__header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.buttons__header>button:first-child {
+
+    color: #4840BB;
+}
+
+.buttons__header>button:last-child {
+    background: #4840BB;
+    color: white;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.image-section {
+    flex: 1;
+    height: 600px;
+    background-image: url('./images/Frame2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.text-section h1 {
+    font-size: 3em;
+    color: #3f3d56;
+    margin: 0;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin: 20px 0;
+}
+
+.text-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-section button:hover {
+    background-color: #5a54d6;
+}
+
+
+
+
+.third-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #2c1a5b;
+}
+
+.third-stats div {
+    text-align: center;
+}
+
+.third-stats img {
+    max-width: 100px;
+}
+
+.third-stats .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-stats .rating span {
+    margin-left: 5px;
+}
+
+
+
+
+
+.investment-info {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-content {
+    max-width: 40%;
+}
+
+.text-content h1 {
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+.text-content p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.text-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6f4ef2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.app-preview {
+    position: relative;
+}
+
+.notifications {
+    position: absolute;
+    top: 150px;
+    right: -300px;
+}
+
+.notification {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification .logo {
+    font-weight: bold;
+}
+
+.notification .time {
+    float: right;
+    color: gray;
+}
